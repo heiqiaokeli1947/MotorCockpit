@@ -44,7 +44,7 @@ class PageTrip(Page):
         self.lbl_t_max = theme.label(card1, "极速 -- km/h", 200, 56, color=theme.ACCENT_ORANGE, font=theme.FONT_BODY)
 
         # 累计
-        card2 = theme.card(root, W - 48, 70, 24, 170)
+        card2 = theme.card(root, W - 48, 84, 24, 166)
         theme.label(card2, "累计", 0, 0, color=theme.MUTED, font=theme.FONT_MID)
         self.lbl_total_km = theme.label(card2, "总里程 -- km", 0, 26, color=theme.TEXT, font=theme.FONT_BODY)
         self.lbl_total_time = theme.label(card2, "总时长 --:--", 200, 26, color=theme.TEXT, font=theme.FONT_BODY)
